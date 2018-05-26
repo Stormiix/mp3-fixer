@@ -3,3 +3,4 @@ src/input/
 src/output/
 src/errors.log
 composer.lock
+src/tmp/

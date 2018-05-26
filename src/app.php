@@ -9,9 +9,12 @@
  *
  * @copyright Copyright (c) 2018, Stormix.co
  */
+
 require '../vendor/autoload.php';
+require 'iTunes.php';
 
 use Stormiix\MP3Fixer\MP3Fixer;
 
-$fixer = new MP3Fixer('input', 'output');
-var_dump($fixer->getInputFiles());
+
+$fixer = new MP3Fixer('input', 'output', 'tmp');
+$fixer->fixMP3S();
