@@ -1,0 +1,21 @@
+{
+    "name": "stormiix/mp3-fixer",
+    "description": "A PHP app to fix broken MP3 files ID3 Tags",
+    "keywords": ["PHP", "MP3 ID3", "eyeD3"],
+    "type": "project",
+    "license": "BSD 3-Clause License",
+    "authors": [
+        {
+            "name": "Anas Mazouni",
+            "email": "madadj4@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stormiix\\MP3Fixer\\": "src/"
+        }
+    }
+}
